@@ -72,7 +72,7 @@ public class LottoMaxMinRank {
         int[] win_nums ={31,10,45,1,6,19};
         int[] result = solution(lottos,win_nums);
         System.out.print("result : ");
-        for(int i=0; i< result.length; i++){
+        for(int i = 0; i< result.length; i++){
             System.out.print(result[i] + " ");
         }
 
